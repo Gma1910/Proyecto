@@ -10,6 +10,18 @@ public class Principal {
 	Vehiculo vehi = new Vehiculo();
 	Sensor sens = new Sensor();
 	Scanner leer = new Scanner(System.in);
+	System.out.println("Si se ingresa el número 0, se detiene la ejecución del while y finaliza la ejecución del programa");
+    	System.out.println("Si se ingresa el número 1, se le piden al usuario los 4 parámetros de vehículo y se crea una instancia de vehículo");
+    	System.out.println("Si se ingresa el número 2, se muestra por pantalla la información de todos los vehículos almacenados hasta el momento.");
+	System.out.println("Si se ingresa el número 3, se muestra por pantalla la información de la cantidad de vehículos creados hasta el momento.")
+	System.out.println("Si se ingresa el número 4, se muestra por pantalla la información de todos los vehículos que tengan color verde.”");
+    	System.out.println("Si se ingresa el número 5, se muestra por pantalla la información de todos los vehículos que tengan modelo entre 2000 y 2021.");
+    	System.out.println("Si se ingresa el número 6, se le piden al usuario los 2 parámetros de sensor y se crea una instancia de sensor.");
+    	System.out.println("Si se ingresa el número 7, se muestra por pantalla la información de todos los sensores almacenados hasta el momento.");
+	System.out.println("Si se ingresa el número 8, se muestra por pantalla la información de la cantidad de sensores creados hasta el momento.");
+	System.out.println("Si se ingresa el número 9, se muestra por pantalla la información de todos los sensores que sean de tipo temperatura.");
+    	System.out.println("Si se ingresa el número 666, se muestra por pantalla los sensores tipo temperatura ordenados por valor.");
+	
 	while (true) {
             System.out.println("Ingrese un numero: ");
             int numero = leer.nextInt();
